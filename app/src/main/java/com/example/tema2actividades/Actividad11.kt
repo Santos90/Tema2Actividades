@@ -13,7 +13,7 @@ fun main() {
 }
 
 fun mayorDeEdad (vararg numeros:Int) : Int {
-    var suma = 0
-    for (n in numeros) if (n >= 18) suma += 1
-    return suma
+    var cant = 0
+    for (n in numeros) if (n >= 18) cant += 1
+    return cant
 }

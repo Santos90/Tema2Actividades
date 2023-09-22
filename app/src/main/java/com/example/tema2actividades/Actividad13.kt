@@ -20,7 +20,6 @@ fun imprimirArray(a:IntArray) {
     a.size
     for (num in a) {
         print("$num, ")
-        
     }
     println()
 
