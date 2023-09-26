@@ -8,7 +8,7 @@ fun main() {
     var n1 = 3
     var n2 = 2
 
-    if (n1.esMayorQue(n2)) println("$n1 es mayor q $n2")
+    if (n1 esMayorQue n2) println("$n1 es mayor q $n2")
     else println("$n1 NO es mayor q $n2")
 
     n1 = 4
@@ -19,4 +19,4 @@ fun main() {
 
 }
 
-infix fun Int.esMayorQue (n2:Int): Boolean = this > n2
+infix fun Int.esMayorQue (n2:Int) = this > n2

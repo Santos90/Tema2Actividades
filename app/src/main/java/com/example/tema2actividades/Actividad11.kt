@@ -17,3 +17,6 @@ fun mayorDeEdad (vararg numeros:Int) : Int {
     for (n in numeros) if (n >= 18) cant += 1
     return cant
 }
+
+
+// val primerNumeroPar = valores.count
