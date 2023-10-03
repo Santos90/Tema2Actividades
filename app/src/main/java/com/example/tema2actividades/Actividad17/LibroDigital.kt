@@ -16,6 +16,10 @@ class LibroDigital(
         return precio * 0.8
     }
 
+    override fun toString(): String {
+        return super.toString() + "\nFormato: $formato"
+    }
+
 
 
 }

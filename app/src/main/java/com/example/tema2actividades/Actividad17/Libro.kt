@@ -7,7 +7,7 @@ open class Libro (
     protected var autor: String,
     protected var añoPublicacion: Int,
     protected var precio: Double
-    )                           {
+){
 
 
     fun Libro (){
